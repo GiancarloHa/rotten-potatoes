@@ -14,7 +14,7 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: mongouser
       MONGO_INITDB_ROOT_PASSWORD: mongopwd
-  kubenews:
+  rotten-potatoes:
     image: giancarloh/rotten-potatoes:v1
     depends_on:
       - mongodb
